@@ -29,3 +29,6 @@ body.dark{--bg:#17152e;--surface:#211e38;--ink:#f2efff;--muted:#c2bdd7;--line:#3
 @media(max-width:380px){.brand{gap:7px;font-size:14px}.personal-logo{font-size:14px}.header-inner{gap:8px}.icon-button{width:38px;height:38px;padding:8px}.page-wrap{padding-inline:14px}.course-card{padding:20px}.course-actions{gap:10px}.course-actions .btn{padding:10px 12px}.lesson-switch{gap:6px}.lesson-switch>a{font-size:11px;padding:9px 6px;gap:5px}.lesson-switch .ui-svg{width:15px;height:15px}.topic-heading{gap:9px}.topic-heading h2{font-size:21px}.breadcrumbs{flex-wrap:wrap}.visual-branches{flex-direction:column}.visual-branches>div{flex:auto}.explain-row{grid-template-columns:1fr}.explain-row>code{text-align:start;justify-self:start}.glossary-card{padding:20px}.task-add{flex-wrap:wrap}.task-add .demo-input{flex-basis:100%}.task-add .btn{width:100%}}
 @media print{.calm-hero{display:block}.calm-hero-art{display:none}}
 .mobile-nav{top:calc(var(--header-height) + 1px)}
+
+/* Brand text stays readable beside the author mark at narrow widths. */
+.site-name{font-family:"Space Grotesk",Arial,sans-serif;font-size:18px;white-space:nowrap}.calm-hero h1{font-size:clamp(32px,3.8vw,49px)}@media(max-width:650px){.calm-hero h1{font-size:35px}}@media(max-width:380px){.site-name{font-size:14px}.personal-logo{font-size:12px}.header-inner .brand{gap:6px}.calm-hero h1{font-size:31px}}

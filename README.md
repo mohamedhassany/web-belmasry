@@ -1,4 +1,4 @@
-# ويب بالمصري — Mohamed Hassany
+# Frontend Step — Mohamed Hassany
 
 منصة تعليمية بالعامية المصرية، مكتوبة بـ HTML وCSS وJavaScript، وفيها أربعة مسارات:
 
@@ -55,7 +55,11 @@ node serve.mjs
 
 ## الموقع المنشور
 
-- الموقع: https://web-belmasry.vercel.app/
+- الموقع: https://frontend-step.vercel.app/
 - الكود: https://github.com/mohamedhassany/web-belmasry
 - إعدادات Vercel في vercel.json: موقع static، فولدر الإخراج dist، بدون خطوة build أو install.
 - المشروع مربوط بفرع main في GitHub؛ تحديثات الفرع تُنشر تلقائيًا على Vercel.
+
+## الهوية الجديدة
+
+Frontend Step — فرونت إند خطوة بخطوة. الاسم الجديد ظاهر في الهيدر والفوتر وعناوين الصفحات. اسم مشروع Vercel هو frontend-step، مع تحويل الرابط القديم إلى الجديد للحفاظ على الروابط المحفوظة.
