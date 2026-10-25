@@ -161,6 +161,7 @@ const learningTerms = (() => {
  add('Prototype chain','سلسلة البحث عن الخواص','تعاقب روابط prototype التي تتبعها JavaScript عند غياب الخاصية المباشرة.','النسخة قد تجد method على prototype الكلاس ثم أسلافه وفق السلسلة.','الوراثة لا تعني نسخ كل method داخل كل object.');
  add('Private field','حقل خاص','اسم عضو يبدأ # ويخضع لقواعد وصول الكلاس.','يسمح بتنظيم ما يمكن لكود خارجي قراءته أو تغييره عبر واجهة محددة.','لا يشفر سرًا موجودًا في ملفات المتصفح.',['Private Fields','private fields']);
  add('Static method','دالة على الكلاس','Method مرتبطة بالكلاس نفسه بدل نسخة منه.','تستدعيها باسم الكلاس مثل ClassName.method وفق التعريف.','ليست method عادية تستدعيها على أي نسخة دون تعريفها هناك.',['static']);
+ if (typeof advancedReactTerms !== "undefined") for (const t of advancedReactTerms) { if (!entries.some(e => e.name.toLowerCase() === t.name.toLowerCase())) entries.push(t); }
  // Include existing glossary names; enrich their explanation with directly related lesson paragraphs.
  for(const list of Object.values(courseGlossary))for(const [name,ar,definition] of list){
   if(!entries.some(t=>t.name.toLowerCase()===name.toLowerCase()))entries.push({name,ar,definition,aliases:[]});
