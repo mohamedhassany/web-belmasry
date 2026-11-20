@@ -215,7 +215,7 @@ function AboutCard() {
     <article>
       <h2>عنّي</h2>
       <p>أنا بتعلم بناء واجهات باستخدام React.</p>
-      <a href="https://my-portfolio-gamma-two-39.vercel.app/"
+      <a href="https://mohamed-hassany-portfolio.pages.dev/"
          target="_blank" rel="noopener noreferrer">
         شوف البورتفوليو
       </a>

@@ -58,7 +58,7 @@ node serve.mjs
 
 معاينات React داخل الشرح مكتوبة بـ JavaScript لتوضيح السلوك؛ الأمثلة المكتوبة بـ JSX تُجرّب في مشروع React/Vite منفصل. تجربة الشبكة تستخدم JSONPlaceholder وتحتاج إنترنت. الخطوط من Google Fonts لها بدائل محلية.
 
-البورتفوليو: https://my-portfolio-gamma-two-39.vercel.app/
+البورتفوليو: https://mohamed-hassany-portfolio.pages.dev/
 
 ## التصميم الهادئ
 

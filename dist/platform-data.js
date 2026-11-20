@@ -244,7 +244,7 @@ lesson('محتوى يتقري: العناوين والفقرات والنصوص'
 lesson('وصّل المحتوى: الروابط والصور والقوائم','نتعامل مع المسارات والروابط والنص البديل، ونختار نوع القائمة على حسب محتواها.',pick('html',8,10),[quiz('alt موجودة ليه؟',['بديل نصي لمعنى الصورة','عشان تتحول لرابط','عشان حجم الصورة يكبر'],0,'alt وصف بديل، مش اسم ملف ولا عنوان URL.'),quiz('خطوات وصفة مرتبة نستخدم لها إيه؟',['ol','ul فقط','div فقط'],0,'ol بتوضح إن الترتيب له معنى.')],[task('كارت تعريفي بروابط','اعمل كارت فيه اسمك، صورتك من مجلد images، رابط البورتفوليو، قائمة مهارات، وقائمة خطوات تعلّم. تأكد إن الصورة موجودة فعلًا.',`<section>
   <h1>Mohamed Hassany</h1>
   <img src="images/profile.jpg" alt="صورة Mohamed Hassany" width="200" height="200">
-  <a href="https://my-portfolio-gamma-two-39.vercel.app/"
+  <a href="https://mohamed-hassany-portfolio.pages.dev/"
      target="_blank" rel="noopener noreferrer">البورتفوليو ↗</a>
   <h2>مهاراتي</h2>
   <ul><li>HTML</li><li>CSS</li></ul>
